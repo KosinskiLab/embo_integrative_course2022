@@ -1,0 +1,6 @@
+## RNA PolI SAXS TUTORIAL ##
+1. DATA reduction (PRIMUS, subtraction, IFT)
+2. MODEL validation 1 (CRYSOL) 
+3. AB_INITIO modeling (DAMMIF, DAMMIN, GASBOR)
+4. MODEL validation 2 (EM2DAM)
+5. ADVANCED modeling (BUNCH or CORAL?)

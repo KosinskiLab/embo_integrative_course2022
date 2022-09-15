@@ -1,0 +1,23 @@
+|molecule_name  |color     |fasta_fn          |fasta_id|pdb_fn             |chain|residue_range|pdb_offset|bead_size|em_residues_per_gaussian|rigid_body|super_rigid_body|chain_of_super_rigid_bodies|
+|ABC23     |0.0, 1.0, 1.0|sequences.fasta|P20435|Pol3_core_Model_on4c3i.pdb|F|1,END|0|10|10                                                          |1|1,10|1|
+|ABC10beta |0.5, 1.0, 0.5|sequences.fasta|P22139|Pol3_core_Model_on4c3i.pdb|J|1,END|0|10|10                                                          |1|1,10|1|
+|ABC14_5   |0.0, 1.0, 0.0|sequences.fasta|P20436|Pol3_core_Model_on4c3i.pdb|H|1,END|0|10|10                                                          |1|1,10|1|
+|ABC27     |0.8156862745098039, 0.12549019607843137, 0.5647058823529412|sequences.fasta|P20434|Pol3_core_Model_on4c3i.pdb|E|1,END|0|10|10            |1|1,10|1|
+|C25       |0.0, 0.5, 1.0|sequences.fasta|P35718|Pol3_core_Model_on4c3i.pdb|G|1,END|0|10|10                                                          |1|1,10|1|
+|AC40      |1.0, 0.0, 0.0|sequences.fasta|P07703|Pol3_core_Model_on4c3i.pdb|C|1,END|0|10|10                                                          |1|1,10|1|
+|C160      |0.745, 0.745, 0.745|sequences.fasta|P04051|Pol3_core_Model_on4c3i.pdb|A|1,END|0|10|10                                                    |1|1,10|1|
+|ABC10alpha|0.0, 0.0, 1.0|sequences.fasta|P40422|Pol3_core_Model_on4c3i.pdb|L|1,END|0|10|10                                                          |1|1,10|1|
+|C128      |0.99, 0.82, 0.65|sequences.fasta|P22276|Pol3_core_Model_on4c3i.pdb|B|1,END|0|10|10                                                       |1|1,10|1|
+|AC19      |1.0, 0.6470588235294118, 0.0|sequences.fasta|P28000|Pol3_core_Model_on4c3i.pdb|K|1,END|0|10|10                                           |1|1,10|1|
+|C11       |1.0, 1.0, 0.0|sequences.fasta|Q04307|Pol3_core_Model_on4c3i.pdb|I|1,END|0|10|10                                                          |1|1,10|1|
+|C17       |1.0, 0.0, 0.5|sequences.fasta|P47076|Pol3_core_Model_on4c3i.pdb|D|1,END|0|10|10                                                          |1|1,10|1|
+|C31       |1.0, 1.0, 0.5|sequences.fasta|P17890|BEADS|Q|1,END|0|10|10                                                                               |2|2,10|2|
+|C34       |0.8549019607843137, 0.6470588235294118, 0.12549019607843137|sequences.fasta|P32910|C34_wHTH1_Model_on2dk8_A.pdb|P|1,76|0|10|10           |3|3,10|3|
+|C34       |0.8549019607843137, 0.6470588235294118, 0.12549019607843137|sequences.fasta|P32910|BEADS|P|77,86|0|10|10                                 |4|3,10|3|
+|C34       |0.8549019607843137, 0.6470588235294118, 0.12549019607843137|sequences.fasta|P32910|C34_wHTH2_Model_on2dk5_A.pdb|P|87,152|0|10|10         |5|3,10|3|
+|C34       |0.8549019607843137, 0.6470588235294118, 0.12549019607843137|sequences.fasta|P32910|BEADS|P|153,179|0|10|10                               |6|3,10|3|
+|C34       |0.8549019607843137, 0.6470588235294118, 0.12549019607843137|sequences.fasta|P32910|C34_wHTH3_Model_on1ldd_A.pdb|P|180,END|0|10|10        |7|3,10|3|
+|C53       |0.439215686, 0.831372549, 1.0|sequences.fasta|P25441|C37_C53_dimer.Model_on4c3i_MN.pdb|N|1,END|0|10|10                                   |8|8,10|8|
+|C37       |0.6, 0.1, 0.6|sequences.fasta|P36121|C37_C53_dimer.Model_on4c3i_MN.pdb|M|1,181|0|10|10                                                   |8|8,10|8|
+|C37       |0.6, 0.1, 0.6|sequences.fasta|P36121|BEADS||182,END|0|10|10                                                                             |8|8,10|8|
+|C82       |1.0, 0.27058823529411763, 0.0|sequences.fasta|P32349|C82_Model_on2xub_A.pdb|O|1,END|0|10|10                                              |9|9,10|9|

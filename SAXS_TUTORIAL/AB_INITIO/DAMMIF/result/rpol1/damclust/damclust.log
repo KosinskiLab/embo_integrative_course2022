@@ -1,0 +1,154 @@
+Models to cluster:
+ rpol1_1-1.pdb
+ rpol1_10-1.pdb
+ rpol1_2-1.pdb
+ rpol1_3-1.pdb
+ rpol1_4-1.pdb
+ rpol1_5-1.pdb
+ rpol1_6-1.pdb
+ rpol1_7-1.pdb
+ rpol1_8-1.pdb
+ rpol1_9-1.pdb
+
+ Step number ............................................ : 2
+ Distance between merged clusters ....................... : 0.9950
+ Average dist within new cluster ........................ : 0.9950
+ Distance: Cluster members
+   0.0000:  2
+   0.0000:  3
+   0.0000:  4
+   0.0000:  5
+   0.0000:  6
+   0.9950:  7  1
+   0.0000:  8
+   0.0000:  9
+   0.0000: 10
+ Average spread of non-isolated clusters ................ : 0.9950
+
+ Step number ............................................ : 3
+ Distance between merged clusters ....................... : 1.027
+ Average dist within new cluster ........................ : 1.027
+ Distance: Cluster members
+   0.0000:  2
+   0.0000:  3
+   0.0000:  4
+   0.0000:  6
+   0.9950:  7  1
+   1.0267:  8  5
+   0.0000:  9
+   0.0000: 10
+ Average spread of non-isolated clusters ................ : 1.011
+
+ Step number ............................................ : 4
+ Distance between merged clusters ....................... : 1.036
+ Average dist within new cluster ........................ : 1.033
+ Distance: Cluster members
+   0.0000:  2
+   0.0000:  3
+   0.0000:  6
+   0.9950:  7  1
+   1.0329:  8  5  4
+   0.0000:  9
+   0.0000: 10
+ Average spread of non-isolated clusters ................ : 1.014
+
+ Step number ............................................ : 5
+ Distance between merged clusters ....................... : 1.074
+ Average dist within new cluster ........................ : 1.048
+ Distance: Cluster members
+   0.0000:  2
+   0.0000:  3
+   1.0477:  7  1  6
+   1.0329:  8  5  4
+   0.0000:  9
+   0.0000: 10
+ Average spread of non-isolated clusters ................ : 1.040
+
+ Step number ............................................ : 6
+ Distance between merged clusters ....................... : 1.131
+ Average dist within new cluster ........................ : 1.095
+ Distance: Cluster members
+   0.0000:  2
+   0.0000:  3
+   1.0946:  8  5  4  7  1  6
+   0.0000:  9
+   0.0000: 10
+ Average spread of non-isolated clusters ................ : 1.095
+
+ Step number ............................................ : 7
+ Distance between merged clusters ....................... : 1.144
+ Average dist within new cluster ........................ : 1.109
+ Distance: Cluster members
+   0.0000:  2
+   0.0000:  3
+   1.1087:  9  8  5  4  7  1  6
+   0.0000: 10
+ Average spread of non-isolated clusters ................ : 1.109
+
+ Step number ............................................ : 8
+ Distance between merged clusters ....................... : 1.174
+ Average dist within new cluster ........................ : 1.125
+ Distance: Cluster members
+   0.0000:  3
+   1.1249:  9  8  5  4  7  1  6  2
+   0.0000: 10
+ Average spread of non-isolated clusters ................ : 1.125
+
+ Step number ............................................ : 9
+ Distance between merged clusters ....................... : 1.259
+ Average dist within new cluster ........................ : 1.155
+ Distance: Cluster members
+   1.1546:  9  8  5  4  7  1  6  2  3
+   0.0000: 10
+ Average spread of non-isolated clusters ................ : 1.155
+
+ Step number ............................................ : 10
+ Distance between merged clusters ....................... : 1.324
+ Average dist within new cluster ........................ : 1.189
+ Distance: Cluster members
+   1.1886: 10  9  8  5  4  7  1  6  2  3
+ Average spread of non-isolated clusters ................ : 1.189
+
+ #, Target:            2   10.000000000000000     
+ #, Target:            3   9.6539014928376439     
+ #, Target:            4   8.7822557470584925     
+ #, Target:            5   8.8703800550068514     
+ #, Target:            6   10.114307352743221     
+ #, Target:            7   9.7000098717435499     
+ #, Target:            8   9.3705509373565121     
+ #, Target:            9   9.5979022423672031     
+ #, Target:           10   10.000000000000000     
+ Best-Cut step .......................................... : 4
+
+ Cluster  1 (isolated): rpol1_10-1.pdb
+ Cluster  2 (isolated): rpol1_2-1.pdb
+ Cluster  3 (isolated): rpol1_5-1.pdb
+ Cluster  4 (representative, deviation): rpol1_6-1.pdb  0.99501385216260441     
+  The cluster contains 2 members. Equivalent model: rpol1_1-1.pdb
+ Cluster  5 (representative, deviation): rpol1_4-1.pdb   1.0312735463054412     
+ Cluster  6 (isolated): rpol1_8-1.pdb
+ Cluster  7 (isolated): rpol1_9-1.pdb
+
+ Distances between the representatives
+       (Cluster1, Cluster2, Distance):
+           1           2   1.3536402868082063     
+           1           3   1.2806086315514051     
+           1           4   1.2508850018852646     
+           1           5   1.0881996939691396     
+           1           6   1.2091189376236360     
+           1           7   1.3956498413010237     
+           2           3   1.2315871080763632     
+           2           4   1.1653721196904039     
+           2           5   1.2320553376471912     
+           2           6   1.3170198862437770     
+           2           7   1.2668392589342323     
+           3           4   1.1369832987093225     
+           3           5   1.1083705561107036     
+           3           6   1.0967689420560720     
+           3           7   1.2809173033566223     
+           4           5   1.1903422206236709     
+           4           6   1.3031136028653889     
+           4           7   1.5109945603505524     
+           5           6   1.2539154551608027     
+           5           7   1.1362510035566133     
+           6           7   1.1805197885508580     

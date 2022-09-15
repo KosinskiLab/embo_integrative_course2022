@@ -1,0 +1,73 @@
+  C R Y S O L    Version 2.8.4  -- 10/12/18
+ 
+ 
+ -- Program  started  at   21-Oct-2019   12:01:25--
+ 
+ --------  Real space resolution and grid  -------- 
+ 
+  Maximum order of harmonics ............................ : 15
+  Order of Fibonacci grid ............................... : 17
+  Total number of directions ............................ : 2585
+ 
+ ------------  Reciprocal space grid  -------------
+ 
+   in s = 4*pi*sin(theta)/lambda [1/angstrom] 
+  Maximum scattering angle .............................. : 0.5000
+  Number of angular points .............................. : 51
+ 
+ --- Structural parameters (sizes in angstroms) --- 
+ 
+ PDB file name .......................................... : 4c2m.pdb
+  Number of atoms read .................................. : 32986
+  Number of discarded waters ............................ : 187
+ Geometric Center:   43.176  104.292  163.751
+Warning: unknown residue / atom
+Warning: unknown residue / atom
+Warning: unknown residue / atom
+Warning: unknown residue / atom
+Warning: unknown residue / atom
+Warning: unknown residue / atom
+Warning: unknown residue / atom
+  Number of C ........................................... : 20819
+  Number of N ........................................... : 5711
+  Number of O ........................................... : 6281
+  Number of S ........................................... : 168
+  Number of Zn .......................................... : 7
+ For   21  zero directions radius    5.09 assumed
+ Center of the excess electron density:  0.007 -0.025 -0.211
+ Electron   Rg   :  50.89       Envelope   Rg      :  51.25    
+ Shape      Rg   :  50.89       Envelope  volume   : 0.7715E+06
+ Shell    volume : 0.1171E+06   Envelope  surface  : 0.3710E+05
+ Shell      Rg   :  65.03       Envelope  radius   :  95.21    
+ Shell    width  :  3.000       Envelope  diameter :  183.7    
+ Molecular Weight: 0.4696E+06   Dry volume         : 0.5692E+06
+ Displaced volume: 0.5870E+06   Average atomic rad.:  1.620    
+ Number of residuals :    4152
+ 
+ ------  Experimental Curve and fitting ----------- 
+ 
+ Data file name ......................................... : P1_1_P1_Buffer_0013c.dat
+  Maximum angle in the data file ........................ : 7.253
+  Number of experimental points ......................... : 2593
+  Angular units multiplied by ........................... : 0.1000
+  Number of experimental points used .................... : 1775
+  Number of points after regridding ..................... : 201
+ Electron density of the solvent, e/A**3 ................ : 0.3340
+  Number of experimental points used .................... : 200
+ 
+ -------  Search limits ---------------   ---  Fitting parameters -------
+  DroMin/Max   Ra(Mn/Mx)  ExVol(Min/max) Semax| Dro   Ra     Vol    Chi^2 Hydra
+ 0.000 0.075   1.40 1.80 542930. 630973. 0.498|0.075 1.400 630973. 28.999 0.184
+  
+ --------  Radii of gyration  [angstroms] ----------
+  
+ Rg ( Atoms - Excluded volume + Shell ) ................. : 53.82
+ Rg from the slope of net intensity ..................... : 53.91
+ --WARNING: Recompute the intensity with LM= 53
+ Average electron density ............................... : 0.3978
+  
+ ----------------  Output files  ------------------
+  
+ Data fit       saved to file 4c2m00.fit
+ 
+  C R Y S O L    Version 2.8.4  -- 10/12/18 ----  terminated at   21-Oct-2019   12:01:31--

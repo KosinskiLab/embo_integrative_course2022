@@ -1,0 +1,606 @@
+{
+    "data": [
+        {
+            "fileGroup": {
+                "files": [
+                    "sequences.fasta"
+                ]
+            },
+            "mapping": {
+                "sp|P04051|RPC1_YEAST DNA-directed RNA polymerase III subunit RPC1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPO31 PE=1 SV=1": [
+                    "C160"
+                ],
+                "sp|P07703|RPAC1_YEAST DNA-directed RNA polymerases I and III subunit RPAC1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC40 PE=1 SV=1": [
+                    "AC40"
+                ],
+                "sp|P17890|RPC7_YEAST DNA-directed RNA polymerase III subunit RPC7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC31 PE=1 SV=1": [
+                    "C31"
+                ],
+                "sp|P20434|RPAB1_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPB5 PE=1 SV=1": [
+                    "ABC27"
+                ],
+                "sp|P20435|RPAB2_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPO26 PE=1 SV=1": [
+                    "ABC23"
+                ],
+                "sp|P20436|RPAB3_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPB8 PE=1 SV=1": [
+                    "ABC14.5"
+                ],
+                "sp|P22139|RPAB5_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPB10 PE=1 SV=2": [
+                    "ABC10beta"
+                ],
+                "sp|P22276|RPC2_YEAST DNA-directed RNA polymerase III subunit RPC2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RET1 PE=1 SV=2": [
+                    "C128"
+                ],
+                "sp|P25441|RPC4_YEAST DNA-directed RNA polymerase III subunit RPC4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC53 PE=1 SV=2": [
+                    "C53"
+                ],
+                "sp|P28000|RPAC2_YEAST DNA-directed RNA polymerases I and III subunit RPAC2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC19 PE=1 SV=1": [
+                    "AC19"
+                ],
+                "sp|P32349|RPC3_YEAST DNA-directed RNA polymerase III subunit RPC3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC82 PE=1 SV=2": [
+                    "C82"
+                ],
+                "sp|P32910|RPC6_YEAST DNA-directed RNA polymerase III subunit RPC6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC34 PE=1 SV=1": [
+                    "C34"
+                ],
+                "sp|P35718|RPC8_YEAST DNA-directed RNA polymerase III subunit RPC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC25 PE=1 SV=1": [
+                    "C25"
+                ],
+                "sp|P36121|RPC5_YEAST DNA-directed RNA polymerase III subunit RPC5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC37 PE=1 SV=1": [
+                    "C37"
+                ],
+                "sp|P40422|RPAB4_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC10 PE=1 SV=1": [
+                    "ABC10alpha"
+                ],
+                "sp|P47076|RPC9_YEAST DNA-directed RNA polymerase III subunit RPC9 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC17 PE=1 SV=2": [
+                    "C17"
+                ],
+                "sp|Q04307|RPC10_YEAST DNA-directed RNA polymerase III subunit RPC10 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC11 PE=1 SV=1": [
+                    "C11"
+                ]
+            },
+            "name": "sequences",
+            "type": "sequences"
+        },
+        {
+            "fileGroup": {
+                "files": [
+                    "xlinks/FerberKosinski2016_apo.csv"
+                ]
+            },
+            "mapping": {
+                "ABC10alpha": [
+                    "ABC10alpha"
+                ],
+                "ABC10beta": [
+                    "ABC10beta"
+                ],
+                "ABC23": [
+                    "ABC23"
+                ],
+                "ABC27": [
+                    "ABC27"
+                ],
+                "AC19": [
+                    "AC19"
+                ],
+                "AC40": [
+                    "AC40"
+                ],
+                "C11": [
+                    "C11"
+                ],
+                "C128": [
+                    "C128"
+                ],
+                "C160": [
+                    "C160"
+                ],
+                "C17": [
+                    "C17"
+                ],
+                "C25": [
+                    "C25"
+                ],
+                "C31": [
+                    "C31"
+                ],
+                "C34": [
+                    "C34"
+                ],
+                "C37": [
+                    "C37"
+                ],
+                "C53": [
+                    "C53"
+                ],
+                "C82": [
+                    "C82"
+                ]
+            },
+            "name": "apo_FerberKosinski2016",
+            "type": "Xlink Analyzer"
+        },
+        {
+            "fileGroup": {
+                "files": [
+                    "xlinks/FerberKosinski2016_DNA.csv"
+                ]
+            },
+            "mapping": {
+                "ABC10alpha": [
+                    "ABC10alpha"
+                ],
+                "ABC10beta": [
+                    "ABC10beta"
+                ],
+                "ABC23": [
+                    "ABC23"
+                ],
+                "ABC27": [
+                    "ABC27"
+                ],
+                "AC19": [
+                    "AC19"
+                ],
+                "AC40": [
+                    "AC40"
+                ],
+                "C11": [
+                    "C11"
+                ],
+                "C128": [
+                    "C128"
+                ],
+                "C160": [
+                    "C160"
+                ],
+                "C17": [
+                    "C17"
+                ],
+                "C25": [
+                    "C25"
+                ],
+                "C31": [
+                    "C31"
+                ],
+                "C34": [
+                    "C34"
+                ],
+                "C37": [
+                    "C37"
+                ],
+                "C53": [
+                    "C53"
+                ],
+                "C82": [
+                    "C82"
+                ]
+            },
+            "name": "DNA_FerberKosinski2016",
+            "type": "Xlink Analyzer"
+        }
+    ],
+    "subcomplexes": [],
+    "subunits": [
+        {
+            "chainIds": [
+                "A"
+            ],
+            "chainToComponent": {
+                "A": "C160"
+            },
+            "color": [
+                0.745,
+                0.745,
+                0.745,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C160",
+            "selection": ":.A"
+        },
+        {
+            "chainIds": [
+                "B"
+            ],
+            "chainToComponent": {
+                "B": "C128"
+            },
+            "color": [
+                0.99,
+                0.82,
+                0.65,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C128",
+            "selection": ":.B"
+        },
+        {
+            "chainIds": [
+                "C"
+            ],
+            "chainToComponent": {
+                "C": "AC40"
+            },
+            "color": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "AC40",
+            "selection": ":.C"
+        },
+        {
+            "chainIds": [
+                "D"
+            ],
+            "chainToComponent": {
+                "D": "C17"
+            },
+            "color": [
+                1.0,
+                0.0,
+                0.5,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C17",
+            "selection": ":.D"
+        },
+        {
+            "chainIds": [
+                "E"
+            ],
+            "chainToComponent": {
+                "E": "ABC27"
+            },
+            "color": [
+                0.8156862745098039,
+                0.12549019607843137,
+                0.5647058823529412,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "ABC27",
+            "selection": ":.E"
+        },
+        {
+            "chainIds": [
+                "F"
+            ],
+            "chainToComponent": {
+                "F": "ABC23"
+            },
+            "color": [
+                0.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "ABC23",
+            "selection": ":.F"
+        },
+        {
+            "chainIds": [
+                "G"
+            ],
+            "chainToComponent": {
+                "G": "C25"
+            },
+            "color": [
+                0.0,
+                0.5,
+                1.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C25",
+            "selection": ":.G"
+        },
+        {
+            "chainIds": [
+                "H"
+            ],
+            "chainToComponent": {
+                "H": "ABC14.5"
+            },
+            "color": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "ABC14.5",
+            "selection": ":.H"
+        },
+        {
+            "chainIds": [
+                "I"
+            ],
+            "chainToComponent": {
+                "I": "C11"
+            },
+            "color": [
+                1.0,
+                1.0,
+                0.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C11",
+            "selection": ":.I"
+        },
+        {
+            "chainIds": [
+                "J"
+            ],
+            "chainToComponent": {
+                "J": "ABC10beta"
+            },
+            "color": [
+                0.5,
+                1.0,
+                0.5,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "ABC10beta",
+            "selection": ":.J"
+        },
+        {
+            "chainIds": [
+                "K"
+            ],
+            "chainToComponent": {
+                "K": "AC19"
+            },
+            "color": [
+                1.0,
+                0.6470588235294118,
+                0.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "AC19",
+            "selection": ":.K"
+        },
+        {
+            "chainIds": [
+                "L"
+            ],
+            "chainToComponent": {
+                "L": "ABC10alpha"
+            },
+            "color": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "ABC10alpha",
+            "selection": ":.L"
+        },
+        {
+            "chainIds": [
+                "M"
+            ],
+            "chainToComponent": {
+                "M": "C37"
+            },
+            "color": [
+                0.6,
+                0.1,
+                0.6,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C37",
+            "selection": ":.M"
+        },
+        {
+            "chainIds": [
+                "N"
+            ],
+            "chainToComponent": {
+                "N": "C53"
+            },
+            "color": [
+                0.439215686,
+                0.831372549,
+                1.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C53",
+            "selection": ":.N"
+        },
+        {
+            "chainIds": [
+                "O"
+            ],
+            "chainToComponent": {
+                "O": "C82"
+            },
+            "color": [
+                1.0,
+                0.27058823529411763,
+                0.0,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [
+                {
+                    "color": [
+                        0.49019607843137253,
+                        0.03137254901960784,
+                        0.06274509803921569,
+                        1.0
+                    ],
+                    "name": "Nter",
+                    "ranges": [
+                        [
+                            1,
+                            40
+                        ]
+                    ]
+                },
+                {
+                    "color": [
+                        0.49019607843137253,
+                        0.03137254901960784,
+                        0.06274509803921569,
+                        1.0
+                    ],
+                    "name": "eWH1",
+                    "ranges": [
+                        [
+                            41,
+                            123
+                        ]
+                    ]
+                },
+                {
+                    "color": [
+                        0.12941176470588237,
+                        0.5490196078431373,
+                        0.2196078431372549,
+                        1.0
+                    ],
+                    "name": "eWH2",
+                    "ranges": [
+                        [
+                            125,
+                            204
+                        ],
+                        [
+                            276,
+                            283
+                        ]
+                    ]
+                },
+                {
+                    "color": [
+                        0.2823529411764706,
+                        0.4392156862745098,
+                        0.6862745098039216,
+                        1.0
+                    ],
+                    "name": "eWH3",
+                    "ranges": [
+                        [
+                            284,
+                            479
+                        ]
+                    ]
+                },
+                {
+                    "color": [
+                        0.9411764705882353,
+                        0.4980392156862745,
+                        0.06274509803921569,
+                        1.0
+                    ],
+                    "name": "eWH4",
+                    "ranges": [
+                        [
+                            481,
+                            568
+                        ]
+                    ]
+                },
+                {
+                    "color": [
+                        0.7176470588235294,
+                        0.6078431372549019,
+                        0.796078431372549,
+                        1.0
+                    ],
+                    "name": "coils",
+                    "ranges": [
+                        [
+                            569,
+                            654
+                        ]
+                    ]
+                }
+            ],
+            "info": {},
+            "name": "C82",
+            "selection": ":.O"
+        },
+        {
+            "chainIds": [
+                "P"
+            ],
+            "chainToComponent": {
+                "P": "C34"
+            },
+            "color": [
+                0.8549019607843137,
+                0.6470588235294118,
+                0.12549019607843137,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C34",
+            "selection": ":.P"
+        },
+        {
+            "chainIds": [
+                "Q"
+            ],
+            "chainToComponent": {
+                "Q": "C31"
+            },
+            "color": [
+                1.0,
+                1.0,
+                0.5,
+                1.0
+            ],
+            "componentToChain": {},
+            "domains": [],
+            "info": {},
+            "name": "C31",
+            "selection": ":.Q"
+        }
+    ],
+    "xlinkanalyzerVersion": "1.1"
+}

@@ -1,0 +1,10 @@
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_3 --seed=1830265234
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_2 --seed=1763037747
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_7 --seed=680014706
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_1 --seed=852741259
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_5 --seed=1938082241
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_8 --seed=2116935195
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_4 --seed=1372847189
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_10 --seed=1911412002
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_6 --seed=1508772552
+dammif P1_1_P1_Buffer_0013c.out -m=slow -s=P1 --omit-solvent --max-bead-count=70000 -u=nanometer -p=rpol1_9 --seed=2124095393

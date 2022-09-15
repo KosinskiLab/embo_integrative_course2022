@@ -1,0 +1,1 @@
+2019/10/18 18:58:48	2019/10/18 18:59:03	 60629/    -1	tobol.embl-hamburg.de	/Users/hmertens/EMAN2/bin/e2pdb2mrc.py --res 10.0 --center --addpdbbfactor 4c2m.pdb pol1.mrc

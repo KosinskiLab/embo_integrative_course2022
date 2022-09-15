@@ -1,0 +1,6 @@
+
+ Created by CRYSOL v. 28 on   21-Oct-2019   12:01:25
+
+ Batch: crysol 4c2m.pdb P1_1_P1_Buffer_0013c.dat
+ Data file name ......................................... : P1_1_P1_Buffer_0013c.dat
+ Model: 4c2m.pdb              Rg:  53.91  Run: 00  Chi^2:   29.00

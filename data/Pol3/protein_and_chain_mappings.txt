@@ -1,0 +1,18 @@
+{'C160': 'A', 'C128': 'B', 'AC40': 'C', 'C17': 'D', 'ABC27': 'E', 'ABC23': 'F', 'C25': 'G', 'ABC14.5': 'H', 'C11': 'I', 'ABC10beta': 'J', 'AC19': 'K', 'ABC10alpha': 'L', 'C37': 'M', 'C53': 'N', 'C82': 'O', 'C34': 'P', 'C31': 'Q'}
+A, sp|P04051|RPC1_YEAST DNA-directed RNA polymerase III subunit RPC1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPO31 PE=1 SV=1
+C, sp|P07703|RPAC1_YEAST DNA-directed RNA polymerases I and III subunit RPAC1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC40 PE=1 SV=1
+Q, sp|P17890|RPC7_YEAST DNA-directed RNA polymerase III subunit RPC7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC31 PE=1 SV=1
+E, sp|P20434|RPAB1_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPB5 PE=1 SV=1
+F, sp|P20435|RPAB2_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPO26 PE=1 SV=1
+H, sp|P20436|RPAB3_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPB8 PE=1 SV=1
+J, sp|P22139|RPAB5_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPB10 PE=1 SV=2
+B, sp|P22276|RPC2_YEAST DNA-directed RNA polymerase III subunit RPC2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RET1 PE=1 SV=2
+N, sp|P25441|RPC4_YEAST DNA-directed RNA polymerase III subunit RPC4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC53 PE=1 SV=2
+K, sp|P28000|RPAC2_YEAST DNA-directed RNA polymerases I and III subunit RPAC2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC19 PE=1 SV=1
+O, sp|P32349|RPC3_YEAST DNA-directed RNA polymerase III subunit RPC3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC82 PE=1 SV=2
+P, sp|P32910|RPC6_YEAST DNA-directed RNA polymerase III subunit RPC6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC34 PE=1 SV=1
+G, sp|P35718|RPC8_YEAST DNA-directed RNA polymerase III subunit RPC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC25 PE=1 SV=1
+M, sp|P36121|RPC5_YEAST DNA-directed RNA polymerase III subunit RPC5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC37 PE=1 SV=1
+L, sp|P40422|RPAB4_YEAST DNA-directed RNA polymerases I, II, and III subunit RPABC4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC10 PE=1 SV=1
+D, sp|P47076|RPC9_YEAST DNA-directed RNA polymerase III subunit RPC9 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC17 PE=1 SV=2
+I, sp|Q04307|RPC10_YEAST DNA-directed RNA polymerase III subunit RPC10 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=RPC11 PE=1 SV=1

@@ -4,7 +4,6 @@
 
 #Pymol
 #FastX3
-#Swiss PDB Viewer
 #Sublime Text
 #WinSCP
 1. Copy the folders from INSTALLATION\Software-just_copy_content_to_software_dir to C:\Users\schulu16\Software (replace schulu16 with the proper username)

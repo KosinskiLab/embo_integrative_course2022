@@ -1,3 +1,4 @@
+```
 #Create directory C:\Users\schulu16\Software (replace schulu16 with the proper username)
 #Add Software and Desktop to Quick Lunch toolbar
 
@@ -86,3 +87,4 @@ conda install -c salilab pyrmsd
 conda install pandas msgpack-python
 pip install pdb-tools
 
+```

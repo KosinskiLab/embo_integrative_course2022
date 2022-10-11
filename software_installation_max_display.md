@@ -1,4 +1,5 @@
 # Anaconda 3
+```
 cd /beegfs/desy/group/school/software/tmp
 wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 bash Anaconda3-2019.10-Linux-x86_64.sh
@@ -6,8 +7,7 @@ bash Anaconda3-2019.10-Linux-x86_64.sh
 #Do you wish the installer to initialize Anaconda3
 #by running conda init? [yes|no]
 #-> no !!!!!!
-
-conda create --name ENV3 python=3.7
+conda create --name ENV3 python=3.8
 conda init bash #necessary?
 conda activate ENV3
 #Your shell prompt should display sth like: (ENV3) shool...
@@ -48,3 +48,4 @@ conda deactivate
 #Add 
 export PATH="/beegfs/desy/group/school/software/anaconda3/bin:$PATH"
 to .bashrc for every user
+```

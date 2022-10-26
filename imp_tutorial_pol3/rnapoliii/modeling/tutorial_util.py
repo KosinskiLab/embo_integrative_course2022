@@ -175,7 +175,7 @@ def _save_coordinates(self,cluster,rmf_name=None,reference="Absolute", prefix=".
     o.close_rmf(rmf_name)
 
 
-if IMP.__version__ == '2.11.1':
+if IMP.__version__ >= '2.17.0':
     IMP.pmi.macros.AnalysisReplicaExchange.__init__ = _init
     IMP.pmi.macros.AnalysisReplicaExchange.write_seed = _write_seed
     IMP.pmi.macros.AnalysisReplicaExchange.save_coordinates = _save_coordinates

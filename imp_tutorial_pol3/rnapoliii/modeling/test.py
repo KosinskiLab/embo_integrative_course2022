@@ -176,7 +176,7 @@ xl1.classify_crosslinks_by_score(3)
 # Now, we set up the restraint.
 xl1rest = IMP.pmi.restraints.crosslinking.CrossLinkingMassSpectrometryRestraint(
                                    root_hier=root_hier,  # The root hierarchy
-                                   CrossLinkDataBase=xl1,# The XLDB defined above
+                                   database=xl1,# The XLDB defined above
                                    length=21.0,          # Length of the linker in angstroms
                                    slope=0.002,           # A linear term that biases XLed
                                                          # residues together
@@ -231,7 +231,6 @@ if not quick:
               root_hier=root_hier,                         # The root hierarchy
               monte_carlo_sample_objects=dof.get_movers()+xl1rest.get_movers(), # All moving particles and parameters
               rmf_output_objects=outputobjects,            # Objects to put into the rmf file
-              crosslink_restraints=[xl1rest],      # allows XLs to be drawn in the RMF files
               monte_carlo_temperature=1.0,   
               replica_exchange_minimum_temperature=1.0,
               replica_exchange_maximum_temperature=2.5,              

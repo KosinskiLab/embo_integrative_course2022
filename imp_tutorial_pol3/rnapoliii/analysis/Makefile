@@ -1,7 +1,7 @@
 .PHONY: clean cleaner
 
 all:
-	python3 ../../support/tutorial_tools/notebook/process_notebook.py analysis --branch master
+	python3 ../../support/tutorial_tools/notebook/process_notebook.py analysis --branch main
 
 clean:
 	rm -f analysis.md Doxyfile

@@ -1,0 +1,20 @@
+#map-container {
+    text-align: center;
+}
+
+#usermap {
+    width: 900;
+    height: 500;
+    width: auto;
+    margin: 0 auto !important;
+}
+
+.haddock-txt {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.splash-txt {
+    font-size: larger;
+    padding: 10px;
+}

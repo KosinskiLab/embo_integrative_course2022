@@ -1,0 +1,1 @@
+{"tag": "RNA-PolIII-C82-C34", "mode": "local", "protocol": "quick", "occupancy_analysis": false, "fixed_chain": "B_C82-alphafold-trimmed.pdb", "scanning_chain": "C_C34-alphafold-trimmed.pdb", "restraints": "xlinks-all-B-CDE.disvis"}

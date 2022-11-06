@@ -1,0 +1,17 @@
+2022-10-31 11:25:03,736 Reading fixed model from: fixed_chain.pdb
+2022-10-31 11:25:03,918 Reading scanning model from: scanning_chain.pdb
+2022-10-31 11:25:03,920 Reading in rotations.
+2022-10-31 11:25:03,923 Requested rotational sampling density: 15.00
+2022-10-31 11:25:03,923 Real rotational sampling density: 16.29
+2022-10-31 11:25:03,923 Number of rotations: 1992
+2022-10-31 11:25:03,923 Reading in restraints from file: restraints.txt
+2022-10-31 11:25:03,927 Number of distance restraints: 2
+2022-10-31 11:25:03,928 Voxel spacing set to: 2.00
+2022-10-31 11:25:03,928 Interaction radius set to: 3.00
+2022-10-31 11:25:03,928 Minimum required interaction volume: 300.00
+2022-10-31 11:25:03,928 Maximum allowed volume of clashes: 200.00
+2022-10-31 11:27:05,255 Writing accessible interaction space to: /home/enmr/csb_webserver/data/runs/disvis/adq_3OD7JNTW/results_adq_3OD7JNTW/accessible_interaction_space.mrc
+2022-10-31 11:27:05,284 Writing number of accessible complexes to: /home/enmr/csb_webserver/data/runs/disvis/adq_3OD7JNTW/results_adq_3OD7JNTW/accessible_complexes.out
+2022-10-31 11:27:05,285 Writing violations to file: /home/enmr/csb_webserver/data/runs/disvis/adq_3OD7JNTW/results_adq_3OD7JNTW/violations.out
+2022-10-31 11:27:05,286 Writing z-score of each restraint to /home/enmr/csb_webserver/data/runs/disvis/adq_3OD7JNTW/results_adq_3OD7JNTW/z-score.out
+2022-10-31 11:27:05,286 Total time passed: 2m  2s

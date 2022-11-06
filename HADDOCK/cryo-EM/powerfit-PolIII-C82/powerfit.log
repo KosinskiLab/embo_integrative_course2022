@@ -1,0 +1,19 @@
+2022-10-31 14:50:05,614 /home/enmr/services/POWERFIT/env/bin/powerfit target.map 9.0 template.pdb -p 8 -a 10.00 -l -cw -n 10 -rr 2.00 -d results_adq_3ODf2UyI
+2022-10-31 14:50:05,614 Target file read from: /home/enmr/services/POWERFIT/runs/adq_3ODf2UyI/target.map
+2022-10-31 14:50:06,346 Target resolution: 9.00
+2022-10-31 14:50:06,346 Initial shape of density: 360 360 360
+2022-10-31 14:50:06,932 Shape after resampling: 166 166 166
+2022-10-31 14:50:06,966 Shape after trimming: 93 87 78
+2022-10-31 14:50:06,970 Shape after extending: 96 90 80
+2022-10-31 14:50:06,971 Template file read from: /home/enmr/services/POWERFIT/runs/adq_3ODf2UyI/template.pdb
+2022-10-31 14:50:07,067 Reading in rotations.
+2022-10-31 14:50:07,074 Requested rotational sampling density: 10.00
+2022-10-31 14:50:07,074 Real rotational sampling density: 9.72
+2022-10-31 14:50:07,074 Calculating core-weighted mask.
+2022-10-31 14:50:07,152 Requested number of processors: 8
+2022-10-31 14:50:07,152 Starting search
+2022-10-31 14:54:19,370 Time for search: 4m 12s
+2022-10-31 14:54:19,371 Analyzing results
+2022-10-31 14:54:19,788 Writing solutions to file.
+2022-10-31 14:54:19,927 Writing PDBs to file.
+2022-10-31 14:54:20,421 Total time: 4m 15s

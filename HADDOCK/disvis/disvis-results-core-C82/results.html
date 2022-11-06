@@ -1,0 +1,813 @@
+
+
+
+<!-- Setup -->
+
+
+<!-- Sponsor text -->
+
+<script src="static/js/jquery-3.2.1.min.js"></script>
+<!-- Login Dropdown --><!-- User Dropdown --><!DOCTYPE html>
+  <html >
+      <head>
+          <title>
+            
+    DisVis - Run adq_3OD5Zzeo
+
+          </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!-- Styles -->
+          
+    
+            <link rel="stylesheet"
+                  href="static/css/bootstrap.min.css">
+            <link rel="stylesheet"
+                  href="static/css/CSB.css">
+            <link rel="stylesheet"
+                  href="static/css/cookieconsent.min.css">
+            <!--- Stylesheet for icons --->
+            <link rel="stylesheet"
+                  href="static/css/material-icons.css">
+
+    <link rel="stylesheet" href="static/css/datatables.min.css" />
+    <style type='text/css'>
+        .dataTables_wrapper .dataTables_paginate {
+            float: left;
+        }
+        .carousel-control-prev-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23444' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+        }
+
+        .carousel-control-next-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23444' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+        }
+
+        .carousel-indicators .active {
+            background-color: #444;
+        }
+
+        .dataTable th,
+        .dataTable td{
+            padding-bottom: .5rem;
+            padding-top: .5rem;
+            max-width: 160px;
+        }
+
+        .centered-table{
+            text-align: center;
+        }
+
+    </style>
+
+
+    
+
+
+      </head>
+      <body >
+        <div class="container px-0">
+            <!-- Banner -->
+            
+              <div id="banner_top" class="rounded-top">
+              </div>
+              <div id="banner"
+                   class="jumbotron rounded-0 mb-0 py-3 local ">
+                <div class="container">
+                  <h1 class="display-4 font-weight-bold">
+                    DISVIS
+                  </h1>
+                  <h2>
+                    @Bonvinlab
+                  </h2>
+                </div>
+              </div>
+            
+            
+<!-- Navbar -->
+<nav class="navbar navbar-dark navbar-expand-xl bg-dark sticky-top rounded-bottom mb-2 py-1">
+  <button class="navbar-toggler collapsed mr-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+    <ul class="navbar-nav order-lg-2 d-none d-xl-inline">
+      <li class="nav-item dropdown">
+        <a href="#"
+           class="dropdown-toggle nav-link active"
+           data-toggle="dropdown"
+           data-target="#login-dropdown">
+          <b>Login</b></a>
+      </li>
+    </ul>
+    <button class="navbar-toggler collapsed"
+            data-toggle="dropdown"
+            data-target="#login-dropdown">
+      <i class="material-icons">lock_outline</i>
+    </button>
+    
+<div id="login-dropdown" class="dropdown-menu dropdown-menu-right p-4">
+  
+    <div class="d-flex flex-row  align-items-baseline">
+      <h5>Login via</h5>
+      <a class="ml-auto text-muted" href="/egi_checkin">learn more ...</a>
+    </div>
+    
+    <a href="/auth/sso_login" class="btn btn-outline-dark btn-block my-3">
+        <img src="/Images/EGI-transparent.png" alt="EGI " height="32px">
+        <i class="pl-2 align-middle">Check-In</i></a>
+
+    <div class="border-bottom text-sm-center text-muted mb-4"
+         style="height: .5rem">
+      <span class="px-3 bg-white"><i>OR</i></span>
+    </div>
+  
+  <form action="/auth/login?next=http%3A%2F%2Fbianca.science.uu.nl%2F"
+        id="login_dropdown"
+        method="post"
+        class="form pb-2 mb-2 border-bottom"
+        role="form">
+    <input id="csrf_token_dropdown" name="csrf_token" type="hidden" value="IjRlMGI2ZTBkNTRjY2U1MDI3MWZlMzAxMjNjOWUwNWI2ZmU2ZDJkNzAi.Y1-YZQ.GgV8dHs9tgn-uJQ9rvcfR5O0oRE">
+    
+    
+    
+    
+    
+    
+    <div class="form-group required">
+                <label class="sr-only" for="email">Email or User Name</label>
+                
+                    <input class="form-control " id="email_dropdown" maxlength="64" minlength="1" name="email" placeholder="Email or User Name" required type="text" value="">
+                
+            
+        </div>
+    
+
+    
+    
+    
+    
+    
+    
+    <div class="form-group required">
+                <label class="sr-only" for="password">Password</label>
+                
+                    <input class="form-control " id="pw_dropdown" name="password" placeholder="Password" required type="password" value="">
+                
+            
+        </div>
+    
+
+    <div class="d-flex flex-row mb-3">
+      
+    
+    
+    
+    
+    
+    
+        
+    
+        
+            <input class="btn btn-outline-dark " id="submit_dropdown" name="submit" style="margin-right:10px;" type="submit" value="Login">
+        
+    
+
+
+      <div class="form-check my-auto">
+        <input class="form-check-input" id="remember_dropdown" name="remember_me" type="checkbox" value="y">
+        <label class="form-check-label">Keep me logged in</label>
+      </div>
+    </div>
+  </form>
+  <div class="text-center mb-2">
+    New user? <a href="/auth/register/" class="onsitelink"><b>Register</b></a>
+  </div>
+  <div class="text-center">
+    Forgot your password? <a href="/auth/forgot_password" class="onsitelink"><b>Reset</b></a>
+  </div>
+</div>
+
+  
+
+  <div class="navbar-collapse collapse" id="navbarSupportedContent">
+    <a class="navbar-brand pb-0" href="/">
+      <i class="material-icons d-none d-lg-inline">home</i>
+      <p class="d-inline d-lg-none">Home</p>
+    </a>
+    <div class="dropdown-divider">
+    </div>
+    <ul class="navbar-nav order-lg-1 mr-auto">
+      
+        
+        <li class="nav-item d-none d-lg-block">
+          <a class="nav-link active pr-0" href="/disvis">DISVIS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a id="navbarDropdown"
+             class="dropdown-toggle nav-link active pr-3"
+             data-toggle="dropdown"
+             aria-haspopup="true"
+             aria-expanded="false">
+            <span class="d-lg-none">DISVIS</span><span class="caret"></span></a>
+          <div class="dropdown-menu dropdown-menu-right"
+               aria-labelledby="navbarDropdown">
+            <a class="dropdown-item"
+               href="/disvis">DISVIS</a>
+            <div class="dropdown-divider">
+            </div>
+            
+              
+            
+              
+                
+                  
+                
+                <a class="dropdown-item" href="https://alcazar.science.uu.nl/services/HADDOCK2.2">HADDOCK2.2</a>
+              
+            
+              
+                
+                  
+                
+                <a class="dropdown-item" href="/haddock2.4">HADDOCK2.4</a>
+              
+            
+              
+            
+              
+                
+                <a class="dropdown-item" href="http://alcazar.science.uu.nl/services/CPORT">CPORT</a>
+              
+            
+              
+                
+                <a class="dropdown-item" href="http://alcazar.science.uu.nl/services/POWERFIT/">POWERFIT</a>
+              
+            
+              
+                
+                <a class="dropdown-item" href="/prodigy">PRODIGY</a>
+              
+            
+              
+                
+                <a class="dropdown-item" href="http://alcazar.science.uu.nl/services/SPOTON">SPOTON</a>
+              
+            
+              
+                
+                <a class="dropdown-item" href="/proabc2">PROABC2</a>
+              
+            
+              
+                
+                <a class="dropdown-item" href="/whiscy">WHISCY</a>
+              
+            
+              
+                
+                <a class="dropdown-item" href="/pdbtools">PDBTOOLS</a>
+              
+            
+              
+                
+                <a class="dropdown-item" href="/fandas">FANDAS</a>
+              
+            
+              
+                
+                <a class="dropdown-item" href="/gentbl">GENTBL</a>
+              
+            
+          </div>
+        </li>
+        
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link"
+               href='/disvis/'>
+            About</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link"
+               href='/disvis/submit'>
+            Submit</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link"
+               href='/auth/register/disvis'>
+            Register</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link"
+               href='/disvis/example'>
+            Example</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link"
+               href='/disvis/manual'>
+            Help/Manual</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link"
+               href='/disvis/tutorial'>
+            Tutorial</a>
+          </li>
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link"
+               href='http://ask.bioexcel.eu/c/disvis'>
+            Support Forum</a>
+          </li>
+        
+      
+    </ul>
+  </div>
+</nav>
+
+            
+            <!-- Page Content -->
+            <div id="main-content" class="row mx-0 px-0 rounded clearfix">
+              <div id="content-header" class="subheader py-2 col-lg-8 order-lg-1">
+                Welcome to the Utrecht Biomolecular Interaction Web Portal &gt;&gt;
+              </div>
+              <div id="content"
+                   class="p-3 order-lg-3 col-12">
+                
+    
+    
+    <!-- Import run specific docking results here -->
+
+    <h3 style="font-size:120%" class="mb-4"><strong>Run  RNA-PolIII-A-B_AF2 (adq_3OD5Zzeo)  </strong></h3>
+    <p><strong>Status: FINISHED</strong></p>
+    <p>Your DisVis run has successfully completed.</p>
+    
+    Please cite the following papers in your work:
+    <div class="textblock px-3 py-2 text-muted">
+        <style>
+    li {
+       margin: 10px 0;
+    }
+</style>
+
+<ul>
+<li>
+    R.V. Honorato, P.I. Koukos, B. Jimenez-Garcia, A. Tsaregorodtsev, M. Verlato, A. Giachetti, A. Rosato and A.M.J.J. Bonvin (2021).
+    <a href="https://doi.org/10.3389/fmolb.2021.729513" target="_blank">Structural biology in the clouds: The WeNMR-EOSC Ecosystem</a>.
+    <em>Frontiers Mol. Biosci.</em>, <strong>8</strong>, fmolb.2021.729513.
+</li>
+<li>G.C.P. van Zundert, M. Trellet, J. Schaarschmidt, Z. Kurkcuoglu, M. David, M. Verlato, A. Rosato and A.M.J.J. Bonvin (2016)
+<a href="http://dx.doi.org/10.1016/j.jmb.2016.11.032" target="_blank"> The DisVis and PowerFit web servers: Explorative and Integrative
+    Modeling of Biomolecular Complexes</a>.<br>
+    <em>J. Mol. Biol.</em>, Advanced Online Publication.
+</li>
+<li>G.C.P. van Zundert and A.M.J.J. Bonvin (2015) 
+<a target=new href="http://dx.doi.org/doi:10.1093/bioinformatics/btv333" target="_blank"> DisVis: Quantifying and visualizing
+    accessible interaction space of distance-restrained biomolecular complexes</a>."
+    <em>Bioinformatics</em> <strong>31</strong>, 3222-3224.
+</li>
+</ul>
+    </div>
+    and add the following acknowledgment:
+    <div class="textblock px-3 pt-2 mb-3 text-muted font-italic">
+        "The FP7 <a href="http://www.wenmr.eu">WeNMR</a> (project# 261572), H2020 <a href="http://www.west-life.eu">West-Life</a>
+(project# 675858), <a href="http://bioexcel.eu">BioExcel</a> (project# 675728) and the <a href="http://eosc-hub.eu">EOSC-hub</a>
+(project# 777536) European e-Infrastructure projects
+are acknowledged for the use of their web portals, which make use of the <a href="http://www.egi.eu">EGI</a>
+infrastructure with the dedicated support of CESNET-MCC, INFN-PADOVA, NCG-INGRID-PT, TW-NCHC, SURFsara and NIKHEF,
+and the additional support of the national GRID Initiatives of Belgium, France, Italy, Germany, the Netherlands, Poland,
+Portugal, Spain, UK, Taiwan and the US Open Science Grid."
+    </div>
+
+    <p>  <strong>Note:</strong> Your results will be stored for 14 days before being removed from the server, please make a backup as soon as possible.</p>
+    
+
+    <div id="satisfaction_smiles" class="my-3">
+        <b class="pr-3" style="vertical-align: super">How would you rate your experience with our portal? </b>
+        <i class="material-icons rating-icon" id="rating1">sentiment_very_dissatisfied</i>
+        <i class="material-icons rating-icon" id="rating2">sentiment_dissatisfied</i>
+        <i class="material-icons rating-icon" id="rating3">sentiment_neutral</i>
+        <i class="material-icons rating-icon" id="rating4">sentiment_satisfied</i>
+        <i class="material-icons rating-icon" id="rating5">sentiment_very_satisfied</i>
+    </div>
+
+    <div class="g-recaptcha" data-callback="recaptchaCallback" style="display: none" data-sitekey="6LdT96UeAAAAAAtP7dbMEVmMj7VEwFsQA5E2RlAR"></div>
+
+    <div id="rated" class="my-3" style="display: none">
+        Thank you! <i class="material-icons">done</i>
+    </div>
+
+
+    <p><strong>Questions / feedback ? </strong><a href="http://ask.bioexcel.eu/c/disvis"> ask.bioexcel.eu</a></p>
+    <p><strong>Please also consider giving us some feedback by filling our <a href="https://goo.gl/MYBt9R">online survey</a>.</strong></p>
+
+    
+        <h2>Accessible Interaction Space</h2>
+        
+            <p class="textblock">
+                The accessible interaction space consistent with at least N restraints is depicted below.
+                Use the slider to adjust N and the arrows on the side of the images to change the view.
+            </p>
+            <div id="mycarousel" class=" carousel slide" data-interval="false" data-ride="carousel" style="width: 90%; max-width: 600px; margin: auto">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    
+                        <li data-target="#mycarousel" data-slide-to="1" class=""></li>
+                    
+                        <li data-target="#mycarousel" data-slide-to="2" class=""></li>
+                    
+                        <li data-target="#mycarousel" data-slide-to="3" class=""></li>
+                    
+                        <li data-target="#mycarousel" data-slide-to="4" class=""></li>
+                    
+                        <li data-target="#mycarousel" data-slide-to="5" class=""></li>
+                    
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" >
+                    
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" id="front" alt="side"
+                                 src="./static/fig/1_front.png">
+                        </div>
+                    
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" id="left" alt="side"
+                                 src="./static/fig/1_left.png">
+                        </div>
+                    
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" id="back" alt="side"
+                                 src="./static/fig/1_back.png">
+                        </div>
+                    
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" id="right" alt="side"
+                                 src="./static/fig/1_right.png">
+                        </div>
+                    
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" id="top" alt="side"
+                                 src="./static/fig/1_top.png">
+                        </div>
+                    
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" id="bottom" alt="side"
+                                 src="./static/fig/1_bottom.png">
+                        </div>
+                    
+                </div>
+                <!-- Controls -->
+                <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            
+                <div class="mx-auto mb-2 flex-row" style="max-width: 400px;">
+                    <div class="d-flex"><span class="mr-auto">1</span><span>2</span></div>
+                    <input id="LevelSlider" class="custom-range" type="range" min="1" max="2"
+                           step="1" value="1"/>
+                </div>
+                <p class="text-center">
+                    Current Level (N): <span id="SliderVal">1</span>
+                </p>
+            
+            <p class="text-center">
+                Images were generated with <a href="http://www.rbvi.ucsf.edu/chimera/" class="offsitelink"  title="UCSF Chimera"> UCSF Chimera</a>.
+            </p>
+        
+    
+
+    <h2>Accessible Complexes</h2>
+    <p class="textblock">
+        The table below lists the number of complexes consistent with at least N restraints as raw number
+        and as fraction of all complexes.
+    </p>
+    
+<div class="table-responsive">
+    
+    <table class="
+    table table-hover  dataTable centered-table
+    "  id="acomp">
+        <thead>
+        <tr>
+             <th>Number of consistent restraints (N)</th> <th>Number of accessible complexes consistent with at least N restraints</th> <th>Fraction of accessible complexes consistent with at least N restraints</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+                 <td>0</td> <td>201644429</td> <td>100.00 %</td>
+            </tr>
+        
+            <tr>
+                 <td>1</td> <td>3536044</td> <td>1.75 %</td>
+            </tr>
+        
+            <tr>
+                 <td>2</td> <td>35316</td> <td>0.02 %</td>
+            </tr>
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+    <h2>z-Score</h2>
+    
+        <p class="alert alert-warning"> <strong> IMPORTANT! </strong> Complexes consistent with all restraints you provided exist indicating that
+            there are no false positives among your restraints. The tables listing z-Scores and Violations can thus be
+            ignored but are provided as part of the DisVis output nevertheless.</p>
+    
+    
+<div class="table-responsive">
+    
+    <table class="
+    table table-hover  dataTable centered-table
+    "  id="zscore">
+        <thead>
+        <tr>
+             <th>#</th> <th>Restraint</th> <th>Average violated fraction</th> <th>Standard deviation</th> <th>Z-score</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+                 <td>1</td> <td>A5394(CB)-B472(CB)</td> <td>0.29</td> <td>0.29</td> <td>1.00</td>
+            </tr>
+        
+            <tr>
+                 <td>2</td> <td>A5394(CB)-B520(CB)</td> <td>0.21</td> <td>0.21</td> <td>-1.00</td>
+            </tr>
+        
+        </tbody>
+    </table>
+</div>
+
+
+    <h2>Violations</h2>
+    
+        <p class="alert alert-warning"> <strong> IMPORTANT! </strong> Complexes consistent with all restraints you provided exist indicating that
+            there are no false positives among your restraints. The tables listing z-Scores and Violations can thus be
+            ignored but are provided as part of the DisVis output nevertheless.</p>
+    
+    
+<div class="table-responsive">
+    
+    <table class="
+    table table-hover  dataTable centered-table
+    "  id="violations">
+        <thead>
+        <tr>
+             <th>Number of consistent restraints (N)</th> <th>Restraint 1</th> <th>Restraint 2</th>
+        </tr>
+        </thead>
+        <tbody>
+        
+            <tr>
+                 <td>1</td> <td>0.57</td> <td>0.42</td>
+            </tr>
+        
+        </tbody>
+    </table>
+</div>
+
+
+    
+
+
+              </div>
+              <!-- Sidebar -->
+              
+              
+            </div>
+            
+            
+              <!-- Powered By -->
+              <div id="powered">
+                <div id="powered-header">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h6>
+                        <b>Proudly powered by:</b>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div id="powered-logos">
+                  <div class="row justify-content-center pt-2 pb-2">
+                    <div class="col-md-2 text-center pt-2 pb-2">
+                      
+    <a href="https://www.eosc-hub.eu"><img src="/Images/eosc_hub_logo.png" alt="EOSC-hub" height="60" class="img-fluid" style="None"/></a>
+                    </div>
+                    <div class="col-md-2 text-center pt-2 pb-2">
+                      
+    <a href="https://www.eoscsecretariat.eu/"><img src="/Images/eosc_logo.png" alt="EOSC" height="60" class="img-fluid" style="None"/></a>
+                    </div>
+                    <div class="col-md-2 text-center pt-2 pb-2">
+                      
+    <a href="http://www.bioexcel.eu"><img src="/Images/bioexcel_logo.png" alt="BioExcel" height="60" class="img-fluid" style="None"/></a>
+                    </div>
+                    <div class="col-md-2 text-center pt-2 pb-2">
+                      
+    <a href="https://www.egi.eu/about/egi-engage/"><img src="/Images/egi_logo.png" alt="EGI" height="60" class="img-fluid" style="None"/></a>
+                    </div>
+                    <div class="col-md-2 text-center pt-2 pb-2">
+                      
+    <a href="https://www.egi.eu/projects/egi-ace/"><img src="/Images/logo-egi-ace.png" alt="EGI-ACE" height="60" class="img-fluid" style="None"/></a>
+                    </div>
+                    <div class="col-md-2 text-center pt-2 pb-2">
+                      
+    <a href="https://www.nwo.nl/"><img src="/Images/nwo_logo.png" alt="NWO" height="60" class="img-fluid" style="None"/></a>
+                    </div>
+                  </div>
+                </div>
+                <div id="powered-text">
+                  <div class="row justify-content-center pt-1 pl-2 p4-2">
+                    <div class="text-center">
+                      <small class="text-muted">
+                        This work is co-funded by the Horizon 2020 projects <a href="https://www.eosc-hub.eu" target="_blank">EOSC-hub</a> and <a href="https://www.egi.eu/projects/egi-ace" target="_blank">EGI-ACE</a> (grant numbers <a href="https://cordis.europa.eu/project/id/777536" target="_blank">777536</a> and <a href="https://cordis.europa.eu/project/id/101017567" target="_blank">101017567</a>), <a href="http://www.bioexcel.eu" target="_blank">BioExcel</a> (grant numbers <a href="https://cordis.europa.eu/project/id/823830" target="_blank">823830</a> and <a href="https://cordis.europa.eu/project/id/675728" target="_blank">675728</a>) <br>and by a computing grant from <a href="https://www.nwo.nl/" target="_blank">NWO-ENW</a> (project number 2019.053).
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            <!-- Footer -->
+            
+              <div id="footer" class="my-2 rounded">
+                <div class="navbar-dark rounded-top">
+                </div>
+                <div class="p-3">
+                  <p>
+                    2008-2022 &copy; Computational Structural Biology group. All rights reserved.
+                  </p>
+                  <p>
+                    <a href="/conditions">Terms of use |</a>
+                    <a href="/privacy"> Privacy</a>
+                    <p>
+                      <p>
+                        <a href="http://www.uu.nl"
+                           title="Utrecht University"
+                           style="margin: 0 30px;">
+                          <img src="/Images/UU-logo.png"
+                               alt="Utrecht University"
+                               height="30"/>
+                        </a>
+                        <a href="http://ubc.uu.nl"
+                           title="Utrecht Bioinformatics Center"
+                           style="margin: 0 30px;">
+                          <img src="/Images/UBC_logo.png"
+                               alt="Utrecht Bioinformatics Center"
+                               height="30"/>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                
+              </div>
+              <!-- Scripts -->
+              
+    
+                <!-- Cookie Consent -->
+                <script src="static/js/cookieconsent.min.js"></script>
+                <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#050101"
+          },
+          "button": {
+            "background": "#337ab7"
+          }
+        },
+        "theme": "classic",
+        "position": "bottom"
+      })
+    });
+                </script>
+                <!-- Bootstrap -->
+                <script src="static/js/popper.min.js"></script>
+                <script src="static/js/bootstrap.min.js"></script>
+                <!-- reCAPTCHA -->
+                <script src="https://www.recaptcha.net/recaptcha/api.js"></script>
+                <!-- Satisfaction scripts -->
+                <script src="static/js/satisfaction.js"></script>
+                <!-- Turn on tooltips in Bootstrap -->
+                <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+                </script>
+                
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', "UA-11029847-9", "auto");
+  ga('send', 'pageview');
+</script>
+
+              
+
+    <script type='text/javascript'>
+        $("#LevelSlider").on("input change keyup", function() {
+            $("#SliderVal").text(this.value);
+            
+                $("#front").attr("src", "./static/fig/"+this.value+"_front.png");
+            
+                $("#left").attr("src", "./static/fig/"+this.value+"_left.png");
+            
+                $("#back").attr("src", "./static/fig/"+this.value+"_back.png");
+            
+                $("#right").attr("src", "./static/fig/"+this.value+"_right.png");
+            
+                $("#top").attr("src", "./static/fig/"+this.value+"_top.png");
+            
+                $("#bottom").attr("src", "./static/fig/"+this.value+"_bottom.png");
+            
+        });
+    </script>
+    <script type="text/javascript" src="static/js/datatables.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(window).resize(function() {
+                var table_width = Math.max(Math.min(Math.floor( $( window ).width()*0.75), 1100),720);
+                $('.dataTable').css({"max-width": table_width+"px"});
+            });
+        });
+        $(function () {
+            $('.dataTable:not(.dataTablePaginated,#violations)').DataTable({
+                "paging": false,
+                "scrollX": true,
+                "searching": false,
+                "ordering": true,
+                "filter": false,
+                "info": false
+            });
+            $('#violations').DataTable({
+                "paging": false,
+                "scrollX": true,
+                "searching": false,
+                "ordering": true,
+                "order": [[ 0, "desc" ]],
+                "filter": false,
+                "info": false
+            });
+
+            $('.dataTablePaginated').DataTable({
+                "paging": true,
+                "pageLength": 15    ,
+                "lengthChange": false,
+                "scrollX": true,
+                "searching": false,
+                "ordering": true,
+                "filter": false,
+                "info": false
+            });
+
+        });
+        
+        
+    </script>
+
+
+          </body>
+      </html>
+    

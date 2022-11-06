@@ -1,0 +1,1 @@
+{"tag": "RNA-PolIII-core-C31-111", "mode": "local", "protocol": "quick", "occupancy_analysis": false, "fixed_chain": "A_PolIII-5fja-core.pdb", "scanning_chain": "G_C31_alphafold-LYS111-peptide.pdb", "restraints": "xlinks-all-core-C31-111.disvis"}

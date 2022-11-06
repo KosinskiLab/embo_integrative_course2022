@@ -1,0 +1,53 @@
+! core - C82
+assi ( segid  A  and resid  5394  and (name CB or name BB)  ) ( segid  B  and resid  472  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  A  and resid  5394  and (name CB or name BB)  ) ( segid  B  and resid  520  and (name CB or name BB)  )  30.0 30.0 0.0
+! core - C34 wHTH1
+assi ( segid  A  and resid  5394  and (name CB or name BB)  ) ( segid  C  and resid   65  and (name CB or name BB)  )  30.0 30.0 0.0
+! core - C34 wHTH2
+assi ( segid  A  and resid  5394  and (name CB or name BB)  ) ( segid  D  and resid  123  and (name CB or name BB)  )  30.0 30.0 0.0
+! core - C31 K91
+assi ( segid  A  and resid  1458  and (name CB or name BB)  ) ( segid  F  and resid   91  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  A  and resid  3402  and (name CB or name BB)  ) ( segid  F  and resid   91  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  A  and resid  4206  and (name CB or name BB)  ) ( segid  F  and resid   91  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  A  and resid  4359  and (name CB or name BB)  ) ( segid  F  and resid   91  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  A  and resid  4361  and (name CB or name BB)  ) ( segid  F  and resid   91  and (name CB or name BB)  )  30.0 30.0 0.0
+! core - C31 K111
+assi ( segid  A  and resid  1458  and (name CB or name BB)  ) ( segid  G  and resid  111  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  A  and resid  3514  and (name CB or name BB)  ) ( segid  G  and resid  111  and (name CB or name BB)  )  30.0 30.0 0.0
+! C34 wHTH1 - C34 wHTH2
+assi ( segid  C  and resid    62  and (name CB or name BB)  ) ( segid  D  and resid   82  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  C  and resid    62  and (name CB or name BB)  ) ( segid  D  and resid   83  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  C  and resid    62  and (name CB or name BB)  ) ( segid  D  and resid  123  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  C  and resid    65  and (name CB or name BB)  ) ( segid  D  and resid   82  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  C  and resid    65  and (name CB or name BB)  ) ( segid  D  and resid  123  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  C  and resid    65  and (name CB or name BB)  ) ( segid  D  and resid  126  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  C  and resid    65  and (name CB or name BB)  ) ( segid  D  and resid  135  and (name CB or name BB)  )  30.0 30.0 0.0
+! C82 - C34 wHTH2
+assi ( segid  B  and resid   520  and (name CB or name BB)  ) ( segid  D  and resid  135  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  B  and resid   520  and (name CB or name BB)  ) ( segid  D  and resid  138  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  B  and resid   520  and (name CB or name BB)  ) ( segid  D  and resid  141  and (name CB or name BB)  )  30.0 30.0 0.0
+! C82 - C31 K91
+assi ( segid  B  and resid    50  and (name CB or name BB)  ) ( segid  F  and resid   91  and (name CB or name BB)  )  30.0 30.0 0.0
+assi ( segid  B  and resid   605  and (name CB or name BB)  ) ( segid  F  and resid   91  and (name CB or name BB)  )  30.0 30.0 0.0
+! C81 - C31 K111
+assi ( segid  B  and resid   612  and (name CB or name BB)  ) ( segid  G  and resid  111  and (name CB or name BB)  )  30.0 30.0 0.0
+!
+! C34 wHTH1 - wHTH2 - 4 missing residue - 5*4.5A
+assign (segid C and resid 74 and (name CA or name BB)) (segid D and resid 79 and (name CA or name BB)) 22.5 22.5 0.0
+assign (segid C and resid 74 and (name CA or name BB)) (segid D and resid 79 and (name CA or name BB)) 22.5 22.5 0.0
+assign (segid C and resid 74 and (name CA or name BB)) (segid D and resid 79 and (name CA or name BB)) 22.5 22.5 0.0
+assign (segid C and resid 74 and (name CA or name BB)) (segid D and resid 79 and (name CA or name BB)) 22.5 22.5 0.0
+!
+! C34 wHTH2 - wHTH3 - 14 missing residue - 14*4.5A
+assign (segid D and resid 158 and (name CA or name BB)) (segid E and resid 180 and (name CA or name BB)) 63.0 63.0 0.0
+assign (segid D and resid 158 and (name CA or name BB)) (segid E and resid 180 and (name CA or name BB)) 63.0 63.0 0.0
+assign (segid D and resid 158 and (name CA or name BB)) (segid E and resid 180 and (name CA or name BB)) 63.0 63.0 0.0
+assign (segid D and resid 158 and (name CA or name BB)) (segid E and resid 180 and (name CA or name BB)) 63.0 63.0 0.0
+!
+! C31 Lys91-Lys111 maximum distance defined as 20*4.5A
+! repeated four times to give more weight
+assign (segid F and resid 91 and (name CA or name BB) ) (segid G and resid 111 and (name CA or name BB) ) 90.0 90.0 0.0
+assign (segid F and resid 91 and (name CA or name BB) ) (segid G and resid 111 and (name CA or name BB) ) 90.0 90.0 0.0
+assign (segid F and resid 91 and (name CA or name BB) ) (segid G and resid 111 and (name CA or name BB) ) 90.0 90.0 0.0
+assign (segid F and resid 91 and (name CA or name BB) ) (segid G and resid 111 and (name CA or name BB) ) 90.0 90.0 0.0
+

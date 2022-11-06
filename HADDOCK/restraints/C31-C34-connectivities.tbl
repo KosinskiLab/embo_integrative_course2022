@@ -1,0 +1,17 @@
+! C34 wHTH1 - wHTH2 - 4 missing residue - 5*4.5A
+assign (segid C and resid 74 and (name CA or name BB)) (segid D and resid 79 and (name CA or name BB)) 22.5 22.5 0.0
+assign (segid C and resid 74 and (name CA or name BB)) (segid D and resid 79 and (name CA or name BB)) 22.5 22.5 0.0
+assign (segid C and resid 74 and (name CA or name BB)) (segid D and resid 79 and (name CA or name BB)) 22.5 22.5 0.0
+assign (segid C and resid 74 and (name CA or name BB)) (segid D and resid 79 and (name CA or name BB)) 22.5 22.5 0.0
+! C34 wHTH2 - wHTH3 - 14 missing residue - 14*4.5A
+assign (segid D and resid 158 and (name CA or name BB)) (segid E and resid 180 and (name CA or name BB)) 63.0 63.0 0.0
+assign (segid D and resid 158 and (name CA or name BB)) (segid E and resid 180 and (name CA or name BB)) 63.0 63.0 0.0
+assign (segid D and resid 158 and (name CA or name BB)) (segid E and resid 180 and (name CA or name BB)) 63.0 63.0 0.0
+assign (segid D and resid 158 and (name CA or name BB)) (segid E and resid 180 and (name CA or name BB)) 63.0 63.0 0.0
+! C31 Lys91-Lys111 maximum distance defined as 20*4.5A
+! repeated four times to give more weight
+assign (segid F and resid 91 and (name CA or name BB) ) (segid G and resid 111 and (name CA or name BB) ) 90.0 90.0 0.0
+assign (segid F and resid 91 and (name CA or name BB) ) (segid G and resid 111 and (name CA or name BB) ) 90.0 90.0 0.0
+assign (segid F and resid 91 and (name CA or name BB) ) (segid G and resid 111 and (name CA or name BB) ) 90.0 90.0 0.0
+assign (segid F and resid 91 and (name CA or name BB) ) (segid G and resid 111 and (name CA or name BB) ) 90.0 90.0 0.0
+
